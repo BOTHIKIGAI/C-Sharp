@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\BlazorApp\\BlazorApp\\BlazorApp.csproj": {}
+    "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\0_Introduction\\0_Introduction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\BlazorApp\\BlazorApp\\BlazorApp.csproj": {
+    "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\0_Introduction\\0_Introduction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
-        "projectName": "BlazorApp",
-        "projectPath": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\0_Introduction\\0_Introduction.csproj",
+        "projectName": "0_Introduction",
+        "projectPath": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\0_Introduction\\0_Introduction.csproj",
         "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\BlazorApp\\BlazorApp\\obj\\",
+        "outputPath": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\0_Introduction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\esteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

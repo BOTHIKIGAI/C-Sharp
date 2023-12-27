@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+      "projectUniqueName": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\3_BLAZOR\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+      "projectPath": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\3_BLAZOR\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
       "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\BlazorApp\\BlazorApp\\obj\\",
+      "outputPath": "C:\\Users\\esteb\\Documents\\GitRepositorys\\C\\3_BLAZOR\\BlazorApp\\BlazorApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\esteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
