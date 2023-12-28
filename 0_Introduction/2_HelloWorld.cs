@@ -98,7 +98,31 @@ namespace CSharpHelloWorld
                Es importante tener en cuenta que no se puede agregar nuevos datos al Array, por lo que
                su longitud siempre sera de 0,1 y 2 (tres datos) */
             
+            // Dictionay
+            var myDictionary = new Dictionary<string, int>
+            {
+               {"Juanes", 20},
+               {"Milan", 2},
+               {"Tara", 8}
+            };
+            /* 
+               Es una estructura de datos que almacena datos de forma clave-valor. Cada elemento de un
+               diccionario esta formado por una clave y un valor. La clave es un identificador unico
+               que se utiliza para acceder al valor. El valor puede ser cualquier tipo.
+               
+               Cuando se crea la estructura de datos bajo el nombre de myDictionary se define el tipo
+               de clave que en este es string y luego entero.
 
+               Los datos se almacenan dentro de un array, el cual debe seguir la estructura solicitada.
+               <string, int>
+            */
+
+            Console.WriteLine(myDictionary["Juanes"]);
+            /* Imprimir datos del diccionario myDictionary, cuando llamamos a la clave string "Juanes"
+               imprimira el valor int 20. */
+
+            // Set
+            var mySet = new HashSet <string> {"Juan", "Esteban", "Cajiao"};
 
         }
     }
