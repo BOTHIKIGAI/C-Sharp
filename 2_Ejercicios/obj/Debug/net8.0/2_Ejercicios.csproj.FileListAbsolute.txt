@@ -1,0 +1,15 @@
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\bin\Debug\net8.0\2_Ejercicios.exe
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\bin\Debug\net8.0\2_Ejercicios.deps.json
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\bin\Debug\net8.0\2_Ejercicios.runtimeconfig.json
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\bin\Debug\net8.0\2_Ejercicios.dll
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\bin\Debug\net8.0\2_Ejercicios.pdb
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\2_Ejercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\2_Ejercicios.AssemblyInfoInputs.cache
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\2_Ejercicios.AssemblyInfo.cs
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\2_Ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\2_Ejercicios.sourcelink.json
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\2_Ejercicios.dll
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\refint\2_Ejercicios.dll
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\2_Ejercicios.pdb
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\2_Ejercicios.genruntimeconfig.cache
+C:\Users\esteb\Documents\GitRepositorys\C\2_Ejercicios\obj\Debug\net8.0\ref\2_Ejercicios.dll
