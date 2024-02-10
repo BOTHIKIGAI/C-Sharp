@@ -1,0 +1,15 @@
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\bin\Release\net8.0\4_MicrosoftLearn.exe
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\bin\Release\net8.0\4_MicrosoftLearn.deps.json
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\bin\Release\net8.0\4_MicrosoftLearn.runtimeconfig.json
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\bin\Release\net8.0\4_MicrosoftLearn.dll
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\bin\Release\net8.0\4_MicrosoftLearn.pdb
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\4_MicrosoftLearn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\4_MicrosoftLearn.AssemblyInfoInputs.cache
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\4_MicrosoftLearn.AssemblyInfo.cs
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\4_MicrosoftLearn.csproj.CoreCompileInputs.cache
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\4_MicrosoftLearn.sourcelink.json
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\4_MicrosoftLearn.dll
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\refint\4_MicrosoftLearn.dll
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\4_MicrosoftLearn.pdb
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\4_MicrosoftLearn.genruntimeconfig.cache
+C:\Users\esteb\Documents\GitRepositorys\C\4_MicrosoftLearn\obj\Release\net8.0\ref\4_MicrosoftLearn.dll
