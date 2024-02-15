@@ -1,0 +1,15 @@
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\bin\Debug\net8.0\W3schools.exe
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\bin\Debug\net8.0\W3schools.deps.json
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\bin\Debug\net8.0\W3schools.runtimeconfig.json
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\bin\Debug\net8.0\W3schools.dll
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\bin\Debug\net8.0\W3schools.pdb
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\W3schools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\W3schools.AssemblyInfoInputs.cache
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\W3schools.AssemblyInfo.cs
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\W3schools.csproj.CoreCompileInputs.cache
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\W3schools.sourcelink.json
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\W3schools.dll
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\refint\W3schools.dll
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\W3schools.pdb
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\W3schools.genruntimeconfig.cache
+C:\Users\esteb\Documents\GitRepositorys\C-Sharp\0_Introduction\W3schools\obj\Debug\net8.0\ref\W3schools.dll
