@@ -1,4 +1,7 @@
-﻿class Program {
+﻿using System.Collections;
+using System.Data;
+
+class Program {
     
     static void Main(String[] args) 
     {
@@ -13,7 +16,11 @@
         // operadoradorComp(); // Operadores Comparacion
         // operadoresLogicos(); // Operadores Logicos
         // metodMatem(); // Math library
-        metodString();
+        // metodString(); // Metodos con los strings
+        // accesString(); // Metodos para la impresión
+        // booleans(); // Sobre los Booleans
+        // condicionales(); // Condicionales
+
 
     }
 
@@ -194,7 +201,102 @@
     // Acceso a los string
     static void accesString()
     {
-        
+        // Acceder a un caracter dentro de un string
+        string hello = "Hello";
+        Console.WriteLine(hello[0]); // Acceder al primer caracter
+
+        // Saber en que parte esta ubicado un caracter dentro de un string
+        Console.WriteLine(hello.IndexOf("e"));
+
+        // Saltar de linea
+        Console.WriteLine("Hola!!! \n¿como estas");
+        Console.Write("\t Estoy bien");
     }
 
+    // Booleans
+    static void booleans() 
+    {   
+        // Variable bool
+        bool isCSharpFun = true;
+        bool isFishTasty = false;
+        Console.WriteLine(isCSharpFun);
+        Console.WriteLine(isFishTasty);
+
+        // Operadores de comparación
+        int x = 5;
+        int y = 10;
+        Console.WriteLine(x > y); // X es mayor que Y
+        Console.WriteLine(x == 5); // X es igual que 5
+
+        int ageA = 10;
+        int ageB = 21;
+
+        if (ageA < ageB)
+        {
+            Console.WriteLine("La edad A es menor que la edad B");
+        }
+        else
+        {
+            Console.WriteLine("La edad A es mayor que la edad B");
+        }
+    }
+
+    // Condicionales
+    static void condicionales()
+    {   
+
+        // Flujo de condicional
+        // bool condition = true;
+        int condition = 1;
+
+        if (condition.GetType() == typeof(bool))
+        {
+            Console.WriteLine("La variable condition es bool");
+        }
+        else if(condition.GetType() == typeof(int))
+        {
+            Console.WriteLine("La variable contion es int");
+        }
+        else
+        {
+            Console.WriteLine("La variable condition no es ni bool ni int");
+        }
+
+        // Condicional corto
+        // variable = (condition) ? expressionTrue :  expressionFalse;
+        int time = 19;
+        string result = (time < 18) ? "Good day." : "Good evening.";
+            // La variable resultado tomara x valor dependiendo de la oepración logica de (time < 18)
+                // Si es false, osea que time es mayor que 18 tomara result un valor igual Good Evening
+                // Si es true, osea que time es menor a 18 tomara result un valor igual a Good day
+        Console.WriteLine(result);
+
+    }
+
+    static void swictMethod()
+    {        
+        int day = 4;
+        switch (day) // Variable que tomara en cuenta
+        {
+            case 1:
+             Console.WriteLine("Lunes");
+             break; // Romper codigo al seleccionar
+            case 2:
+             Console.WriteLine("Martes");
+             break;
+            case 3:
+             Console.WriteLine("Miercoles");
+             break;
+            case 4:
+             Console.WriteLine("Jueves");
+             break;
+            case 5:
+             Console.WriteLine("Viernes");
+             break;
+            default:
+                Console.WriteLine("Ningun case corresponde con algun valor de la variable day");
+                break;
+        }
+
+    }
 }
