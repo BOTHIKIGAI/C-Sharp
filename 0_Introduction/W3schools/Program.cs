@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Data;
-
-class Program {
+﻿class Program {
     
     static void Main(String[] args) 
     {
@@ -20,7 +17,11 @@ class Program {
         // accesString(); // Metodos para la impresión
         // booleans(); // Sobre los Booleans
         // condicionales(); // Condicionales
-
+        // mientrasTanto(); // While (mientras tanto)
+        // paraCada(); // Ciclo for
+        // paraCadaUno(); // Para cada uno o for each
+        // romperCiclo(); // Break
+        continuaCiclo(); // Continua
 
     }
 
@@ -298,5 +299,76 @@ class Program {
                 break;
         }
 
+    }
+
+    static void mientrasTanto() {
+        bool condicional = true;
+
+        while (condicional) {
+            Console.WriteLine("Condicional siendo verdadera");
+            condicional = false;
+            Console.WriteLine("Condicional ahora es falsa");
+        }
+
+        int i = 0;
+        while (i < 5) {
+            i++;
+            Console.WriteLine($"Condicional de {i} < 5");
+            
+        }    
+
+    }
+
+    static void paraCada() {
+
+        // Ciclo for
+        /* for (int i = 0; i < 5; i++) { // Mientras i sea menor a 5 ejecuta bloque de codigo
+            Console.WriteLine(i); // Bloque de codigo
+        } */
+
+        // Outer loop
+        for (int i = 1; i <= 2; ++i) 
+        {
+        Console.WriteLine("Outer: " + i);  // Executes 2 times
+
+        // Inner loop
+        for (int j = 1; j <= 3; j++) 
+        {
+            Console.WriteLine(" Inner: " + j); // Executes 6 times (2 * 3)
+        }
+        }
+    }
+
+    static void paraCadaUno() 
+    {
+        string[] carros = {"Volve", "BMW", "Ford", "Mazda"};
+        foreach (string carro in carros){
+            Console.WriteLine(carro);
+        }
+    }
+
+    static void romperCiclo() 
+    {   
+        for(int i = 0; i < 10; i++)
+        {               
+            if (i == 4) 
+            {
+                Console.WriteLine("Rompiendo el ciclo");
+                break;  
+            }
+
+            Console.WriteLine(i);
+        }
+    }
+
+    static void continuaCiclo()
+    {
+        for(int i = 0; i < 10; i++)
+        {
+            if(i == 4){
+                continue; // Saltar el bloque de codigo que se ejecuta en el ciclo
+            }
+            Console.WriteLine(i);
+        }
     }
 }
