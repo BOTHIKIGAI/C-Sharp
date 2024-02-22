@@ -21,7 +21,7 @@
         // paraCada(); // Ciclo for
         // paraCadaUno(); // Para cada uno o for each
         // romperCiclo(); // Break
-        continuaCiclo(); // Continua
+        // continuaCiclo(); // Continua
 
     }
 
@@ -370,5 +370,28 @@
             }
             Console.WriteLine(i);
         }
+    }
+
+    static void Arreglo()
+    {
+        string[] cars; // Declaración de array
+        string[] carros = {"volvo", "BMW", "Ford", "Mazda"};// Declaración de array con datos
+        int[] nyNum = {1,2,3,4,5,6}; 
+
+        // { Acceder a elementos }
+        Console.WriteLine(carros[0]); // Imprimira el primer elementos de carro
+        Console.WriteLine(nyNum[0]);
+
+        // { Cambiar elemento de un array }
+        carros[0] = "Opel"; // Cambio de valor del indice 0 de carros
+
+        // { Numero de elemetos de un array }
+        Console.WriteLine(carros.Length); // lenght
+
+        // { Maneras de generoar un array }
+        string[] motos = new string[4]; // Crear un array con una longitud maxima e igual a numero definido
+        string[] computadoras = new string[4] {"Acer", "Dell", "Mac", "Asus"}; // Crear un arrauy con datos definidos y una longitud definida
+        string[] arboles = new string[] {"Pino", "Roble"}; // Crear un array con datos y sin definir longitud
+        
     }
 }
