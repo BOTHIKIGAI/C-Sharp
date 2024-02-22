@@ -1,4 +1,6 @@
-﻿class Program {
+﻿using System.Runtime.CompilerServices;
+
+class Program {
     
     static void Main(String[] args) 
     {
@@ -22,6 +24,9 @@
         // paraCadaUno(); // Para cada uno o for each
         // romperCiclo(); // Break
         // continuaCiclo(); // Continua
+        // paraCadaArrays(); // Para cada usado en los array
+        // methodsArray(); // Metodos para la organización de los array}
+        ArraydeArrays(); // Array tridimensional
 
     }
 
@@ -393,5 +398,82 @@
         string[] computadoras = new string[4] {"Acer", "Dell", "Mac", "Asus"}; // Crear un arrauy con datos definidos y una longitud definida
         string[] arboles = new string[] {"Pino", "Roble"}; // Crear un array con datos y sin definir longitud
         
+    }
+
+    static void paraCadaArrays()
+    {   
+        // { Recorrer Array }
+        string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (int i = 0; i < cars.Length; i++)
+        {
+            Console.WriteLine(cars[i]);
+        }
+
+        // { Recorrer con for each }
+        foreach (string car in cars)
+        {
+            Console.WriteLine(car);
+        }
+    }
+
+    static void methodsArray()
+    {
+        // { Sort String - Organizar por Alfabetico }
+        string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+        foreach (string car in cars)
+        {
+            Console.WriteLine(car);
+        }
+        
+        Array.Sort(cars); // Organiza el array de manera alfabetica
+        Console.WriteLine("Organizar el array de manera alfabetica");
+
+        foreach (string car in cars)
+        {
+            Console.WriteLine(car);
+        }
+
+        // { Methods con Numeros }
+        int[] numbers = {4,8,1,2,9};
+
+        Console.WriteLine(numbers.Max()); // Numero de mayor 
+        Console.WriteLine(numbers.Min()); // Numero de menor 
+        Console.WriteLine(numbers.Sum()); // Sumatoria de los elementos
+    }
+
+    static void ArraydeArrays()
+    {
+        // { Two - Dimensional Arrays }
+        int[,] numbers = { {1,4,2}, {3,6,8} }; // Los arrays deben tener la misma cantidad de elementos
+
+        // Acceder a elementos
+        Console.WriteLine(numbers[1, 2]); // [ indiceArray, elementoArray ]
+
+        // Actualizar elementos
+        numbers[1,2] = 5; // [ indiceArray, elemntoRemplazar ] = elementosUsadoParaRemplazar
+        Console.WriteLine(numbers[1, 2]); // [ indiceArray, elementoArray ]
+
+        // Recorrer elementos
+        Console.WriteLine("\nRecorriendo array\n");
+        foreach(int num in numbers)
+        {
+            Console.WriteLine(num);
+        }
+
+        // Recorrer por arrays
+        Console.WriteLine("\nRecorrer array por arrays\n");
+        Console.WriteLine(numbers.GetLength(0)); // Saber cuantos array existen dentro del array
+        Console.WriteLine(numbers.GetLength(1)); // Saber cuantos elementos existen dentro de los arrays
+
+        for (int i = 0; i < (numbers.GetLength(0)); i++)
+        {
+            Console.WriteLine($"\nArray num: {i}");
+            for (int j = 0; j < (numbers.GetLongLength(1)); j++)
+            {
+                Console.WriteLine(numbers[i, j]);
+            }
+        }
+
     }
 }
