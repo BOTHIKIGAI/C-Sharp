@@ -26,7 +26,12 @@ class Program {
         // continuaCiclo(); // Continua
         // paraCadaArrays(); // Para cada usado en los array
         // methodsArray(); // Metodos para la organización de los array}
-        ArraydeArrays(); // Array tridimensional
+        // ArraydeArrays(); // Array tridimensional
+        // metodos(); // Methods
+        // metodoParametros("Juan"); // Parameters methods
+        // metodoParametrosDefinidos(); // Default Parameter Velue
+        // int z = metodoRetornar(1,2); Console.WriteLine(z); // Metodo retornar 
+        // metodoNombrarArgumentos(notaA: "A", notaB: "B", notaC: "A+");
 
     }
 
@@ -475,5 +480,38 @@ class Program {
             }
         }
 
+    }
+
+    static void metodos()
+    {
+        // metodos() -> nombre del metodo
+        // static -> significa que el metodo pertene a la clase programa, la clase main, 
+        // void -> significa que el metodo no retornara un valor
+
+        Console.WriteLine("Soy un linea de codigo que unicamente se ejecutara cuando se llame a este metodo");
+    }
+
+    static void metodoParametros(string nombre)
+    {
+        Console.WriteLine($"Mi nombre es {nombre}");
+    }
+
+    static void metodoParametrosDefinidos(string country = "Colombia")
+    {
+        Console.WriteLine($"El pais predefinido es {country}");
+    }
+
+    static int metodoRetornar(int x, int y)
+    {
+        return x + y;
+    }
+
+    static void metodoNombrarArgumentos(string notaA, string notaB, string notaC)
+    {
+        string[] notas = {notaA, notaB, notaC};
+        foreach (string nota in notas)
+        {
+            Console.WriteLine(nota);
+        }
     }
 }
