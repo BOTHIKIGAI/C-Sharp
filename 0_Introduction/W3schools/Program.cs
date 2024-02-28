@@ -4,29 +4,54 @@ class Program {
     
     static void Main(String[] args) 
     {
-
+        // { Impresion }
         // helloWorld(); // Hello World
+
+        // { Variables }
         // variables();  // Definición de variables
         // constantes(); // Definición de constantes
         // typeCasting(); // Casting a variables
+
+        // { Input data }
         // inputData(); // Ingresar data por terminal
-        // operadores(); // Operadores aritmeticos
+
+        // { Operadores }
+            // { Matematicos }
+        // operadores(); // Operadores aritmeticos      
         // operadoresAsignamiento(); // Operadores de asignamiento
+
+            // { Comparación (<, >, ==) }
         // operadoradorComp(); // Operadores Comparacion
+
+            // { Logicos }
         // operadoresLogicos(); // Operadores Logicos
+
+            // { Libreria Math }
         // metodMatem(); // Math library
+
+        // { Metodo String }
         // metodString(); // Metodos con los strings
         // accesString(); // Metodos para la impresión
+
+        // { Booleanos }
         // booleans(); // Sobre los Booleans
+
+        // { Condicioanles }
         // condicionales(); // Condicionales
+
+        // { Ciclos }
         // mientrasTanto(); // While (mientras tanto)
         // paraCada(); // Ciclo for
         // paraCadaUno(); // Para cada uno o for each
         // romperCiclo(); // Break
         // continuaCiclo(); // Continua
+
+        // { Array }
         // paraCadaArrays(); // Para cada usado en los array
         // methodsArray(); // Metodos para la organización de los array}
         // ArraydeArrays(); // Array tridimensional
+
+        // { Metodos }
         // metodos(); // Methods
         // metodoParametros("Juan"); // Parameters methods
         // metodoParametrosDefinidos(); // Default Parameter Velue
